@@ -1,0 +1,474 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+    font-family: 'Roboto', sans-serif;
+}
+.logo{
+    width: 29%;
+    margin: 13px;
+    margin-left: 40px;
+    z-index: 10;
+}
+.nav{
+    display: inline;
+    width: 100%;
+    
+    
+}
+.av1{
+    background-color: #202C39;  
+}
+li{padding-right: 37px;
+    padding-top: 68px;
+    float: right;
+    display: inline;
+    list-style: none;
+
+    
+}
+.bnav {
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.bnav:hover{
+    color:#95a9be;
+}
+
+.hea{
+    background-image: url(../img/fon0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    background-position: center center;
+}
+.title_head{
+    margin: auto;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 54px;
+    max-width: 750px;
+}
+.text_head{
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+    max-width: 750px;
+}
+.lucrari{
+    color: #FFF;
+    border: solid 2px #FFF;
+    padding: 18px 36px;
+    text-decoration: none;
+    border-radius: 34px;
+    font-size: 18px;
+    text-align: center;
+    background-color: rgba(124, 124, 124, 0.5);
+}
+.lucrari:hover{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+.comanda{
+    color:#202C39;
+    border:#F7F052 solid 2px;
+    background-color: #efe748;
+    padding: 18px 36px;
+    text-decoration: none;
+    border-radius: 34px;
+    font-size: 18px;
+    margin-top: 30px;
+    text-align: center;
+    
+}
+.comanda:hover{
+    background-color: #F5EC21;
+    color: #000;
+}
+.links{
+    margin-left: 39vw;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+
+}
+.but{
+    display: none;
+}
+
+.avantajele_noastre{
+    font-size: 35px;
+    margin-top: 30px;
+    color: #202C39;
+    margin-left: 30px;
+}
+.avantaj{
+    max-width: 600px;
+    color: #59667D;
+    margin-top: 30px;
+    line-height: 28px;
+    margin-left: 30px;
+    padding-right: 10px;
+}
+.form{
+    display: inline;
+    height: 64px;
+    
+}
+.avantaje{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    justify-content: space-around;
+}
+.avantaj_n{
+    width: 320px;
+    
+}
+.avantaj_text{
+    line-height:32px;
+    margin-top: 20px;
+    color: #59667D;
+}
+.name_avan{
+    color:#202C39 ;
+    
+}
+.parteneri{
+    background-image: url(../img/fon2.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+}
+.part{
+    text-align: center;
+    font-size: 40px;
+    padding: 26px 0px 0px;
+}
+.parten{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px 0px ;
+}
+
+.partener {
+    padding: 20px 0px;
+    width: 320px;
+}
+
+.servicii{
+    font-size: 30px;
+    padding: 30px 0px 40px 30px;
+    color: #202C39;
+}
+.serviciile_noastre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.servici{
+    width: 500px;
+}
+.name_servici{
+    padding: 36px 30px;
+    color: #202C39;
+    font-weight:bold;
+}
+.text_servici{
+    line-height: 32px;
+    color:#59667D ;
+    font-weight: normal;
+    padding: 0px 20px;
+}
+.intro{
+    color: #fff;
+    background-color: #0575E6;
+    margin-bottom: 27px;
+    font-size: 48px;
+    padding: 45px 10px 40px 50px;
+    font-weight:100;
+}
+.elementele{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.el{
+    width: 300px;
+    border: 6px solid #202C39;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+.model{
+    text-align: center;
+    margin:   20px;
+    font-size: 24px;
+    color: rgb(80 41 130);
+}
+.pret{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.img_model{
+    width: 280px;
+    background-color: #fff;
+}
+.galeri{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.modeln{
+    width:320px ;
+    height: 213px;
+    margin: 10px;  
+}
+.img_contact{
+    width: 24px;
+    display: inline;
+    float: left;
+}
+.modul_de_contact{
+    color: #202C39;
+    font-size: 21px;
+    display: inline;
+    font-weight:100;
+}
+.precizie{
+    color: #202C39;
+    font-size: 15px;
+    
+}
+.subscrib{
+    color: #59667D;
+    font-size: 14px;
+}
+.modul_de{
+    min-height: 100px;
+    width: 200px;
+    display:inline ;
+    
+}
+.locul{
+    display: inline;
+    width: 200px;
+    float: right ;
+}
+.contact{
+    width: 400px;
+    height:100px ;
+}
+.cont{
+    float:right ;
+    margin-right: 30px;
+    
+}
+.bbb{
+    background-color: #eaf4ff;;
+}
+.asdfff {
+    text-align: center;
+    font-size: 13px;
+    color: #59667D;
+    margin-bottom: 16px;
+}
+@media screen and (max-width: 1440px){
+    .links{
+        margin-left: 33vw;
+    }
+    li{
+        padding-top: 37px;
+    }
+}
+@media screen and (max-width: 1023px){
+    
+    .comanda{
+        display: block;
+    }
+    .lucrari{
+        display: block;
+    }
+    .links{
+        margin-left: 0px;
+        margin-top: -15vw;
+    }
+    li{
+        display: block;
+        float:none;
+        text-align: center;
+        padding-right: 0px;
+    }
+    .but{
+        display: block;
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        right: 22px;
+        top: 22px;
+        z-index: 10;
+
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border: 0;
+        border-radius: 0;
+        background:#202C39;
+        
+    }
+    
+    .logo{
+        position: absolute;
+        left: -15px;
+        top: 12px;
+        width: 204px;
+    }
+    .title_head{
+        font-size: 38px;
+    }
+    .nav li:last-child{
+        padding-bottom: 40px;
+
+    }
+    .nav li:first-child{
+        padding-top: 100px;
+    }
+    .header_low{
+        transform: translateY(-65%);
+        
+    }
+    .header_low.header_low-del{
+        display: inline;
+    }
+    .nav{
+        display: block;
+        transform: translateY(-100%);
+        transition: all 1s;
+       
+    }
+    .av1{
+        background-color: rgba(456, 57, 567, 0); 
+    }
+    .nav.nav--d{
+        transform: translateY(0%);
+        background-color: #202C39;  
+        z-index: 8;
+    }
+    .title_head.title_head-del{
+        
+        transform: translateY(9000px);
+    }
+    .text_head.text_head-del{
+        color: rgba(34, 34, 34, 0);
+        transform: translateY(9000px);
+    }
+    header{
+        box-shadow: inset -3px 102px 0px -10px #202C39;
+        
+    }
+    .hea{height: 900px;}
+    .fff{
+        background-image: url(../img/fon2.jpg);
+        background-position: center center;
+    }
+ }
+ @media screen and (max-width: 740px){
+    .form{
+        margin: 0px 129px;
+    }
+    .name_avan{
+        text-align: center;
+    }
+    .avantaj_text{
+        text-align: center;
+    }
+    .links{
+        margin-top: -16vw;
+    }
+}
+ @media screen and (max-width: 440px){
+    .links{
+        margin-top: -51vw;
+    }
+    .locul{
+        float: none;
+    }
+    .contact{
+        width: 270px;
+    }
+ }
+
+ @media screen and (min-width: 1440px){
+     li{
+         padding-top: 3vw;
+     }
+     .bnav{
+         font-size: 1vw;
+     }
+     .text_head{
+         font-size: 1.5vw;
+         max-width: 1000px;
+     }
+     .title_head{
+         font-size: 3vw;
+         max-width: 1000px;
+     }
+     .links{
+         margin-top: 8vw;
+     }
+     .comanda, .lucrari {
+         font-size: 1vw;
+     }
+     .avantaj_n{
+         width: 500px;
+
+     }
+     .name_avan, .name_servici {
+         font-size: 40px;
+     }
+     .avantaj_text, .text_servici{
+         font-size: 25px;
+     }
+     .form{
+        display: inline;
+        height: 84px;
+        
+    }
+    .avantajele_noastre, .servicii {
+        font-size: 50px;
+        
+    }
+    .avantaj{
+        font-size: 25px;
+        line-height: 41px;
+        max-width: 1000px;
+       
+    }
+    .part{
+        font-size: 50px;
+    }
+}
+@media screen and (min-width: 2275px){
+    .hea{
+        height: 1200px;
+    }
+    .form{
+        height: 100px;
+    }
+    .name_avan{
+        font-size: 45px;
+    }
+    .avantaj_text{
+        font-size: 28px;
+    }
+}
